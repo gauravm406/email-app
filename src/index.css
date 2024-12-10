@@ -1,0 +1,20 @@
+:root {
+	--color-accent: #e54065;
+	--color-background: #f4f5f9;
+	--color-border: #cfd2dc;
+	--color-text: #636363;
+	--color-filter-button: #e1e4ea;
+	--color-read-background: #f2f2f2;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: var(--color-background);
+}

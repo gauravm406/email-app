@@ -1,0 +1,58 @@
+.email_card {
+	display: flex;
+	padding: 1rem 2rem;
+	gap: 1rem;
+	border: 1px solid var(--color-text);
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+.bg_white {
+	background-color: white;
+}
+
+.bg_grey {
+	background-color: var(--color-read-background);
+}
+
+.initials {
+	height: 50px;
+	width: 50px;
+	background-color: var(--color-accent);
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 700;
+	border-radius: 999px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+}
+
+.content_container {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	color: var(--color-text);
+	width: 80%;
+}
+
+.from_name {
+	color: black;
+}
+
+.from_email {
+	color: black;
+}
+
+.subject {
+	color: black;
+}
+
+.short_description {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 100%;
+	display: block;
+}

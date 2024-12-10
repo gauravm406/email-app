@@ -1,0 +1,51 @@
+.email_body {
+	height: calc(100% - 4rem);
+	background-color: white;
+	width: calc(60% - 4rem);
+	border-radius: 0.5rem;
+	padding: 2rem;
+	display: flex;
+	gap: 2rem;
+	color: var(--color-text);
+	overflow-y: scroll;
+}
+
+.email_body_content {
+	width: calc(100% - 2rem - 50px);
+}
+
+.email_body_header {
+	display: flex;
+	justify-content: space-between;
+	height: 2rem;
+}
+
+.favorite_btn {
+	background-color: var(--color-accent);
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.email_description {
+	margin-top: 1rem;
+}
+
+.email_subject {
+	color: black;
+}
+
+.email_description p {
+	margin-bottom: 1rem;
+}
+
+.loader {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
